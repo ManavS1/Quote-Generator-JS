@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap');
+
+/* Global Style */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+}
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End Of Global Style */
+
+
+.quote-container{
+  width: auto;
+  max-width: 900px;
+  padding: 2rem;
+  border: 0.8rem solid #3ebda8;
+  box-shadow: 0px 0px 16px 10px rgba(0, 84, 88, 0.75);
+  font-size: 2.5rem;
+  background-color: #86f0de;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.quote-container:hover{
+  box-shadow: 0px 0px 38px 27px rgba(0, 84, 88, 0.75);
+  transform: scale(1.02);
+}
+
+.fa-quote-left, .fa-quote-right{
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.quote-author{
+  margin-top: 1rem;
+  font-style:italic;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button-container{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 1.5rem;
+}
+
+.twitter-btn, .new-quote{
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 3rem;
+  color: #00acee;
+}
+
+.new-quote{
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: 0.4rem solid #3ebda8;
+  border-radius: 10px;
+  color: #333;
+  transition: all 0.4s;
+}
+
+.new-quote:hover{
+  background: rgba(255, 252, 252, 0.822);
+  border-color: #333; 
+}
+
+/* Media Query Tablet Or Smaller */
+
+@media screen and (max-width: 1000px){
+
+}
